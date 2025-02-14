@@ -27,7 +27,7 @@
         </div>
         <div class="form-group">
             <label for="">Ukuran</label>
-            <?= form_input('size', $input->size, ['class' => 'form-control', 'placeholder' => 'Contoh: S, M, L, XL, ...', 'required' => true]) ?>
+            <?= form_input('size', $input->size, ['class' => 'form-control', 'placeholder' => 'Contoh: 50gr ..', 'required' => true]) ?>
             <?= form_error('size') ?>
         </div>
         <div class="form-group">

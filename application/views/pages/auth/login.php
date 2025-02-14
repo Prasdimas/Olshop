@@ -20,7 +20,7 @@
 							<?= form_password('password', '', ['class' => 'form-control', 'placeholder' => 'Masukkan password minimal 6 karakter', 'required' => true]) ?>
 							<?= form_error('password') ?>
 						</div>
-						<button type="submit" class="btn btn-dark">Register</button>
+						<button type="submit" class="btn btn-dark">Login</button>
                     <?= form_close() ?>
                 </div>
             </div>

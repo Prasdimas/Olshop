@@ -22,7 +22,7 @@ class Home extends MY_Controller
             ->orderBy('id', 'DESC')->paginate($page)->get();
         $data['productW'] = $this->home->where('type', 'W')->where('delete', 1)
             ->orderBy('id', 'DESC')->paginate($page)->get();
-        $data['productU'] = $this->home->where('type', 'U')->where('delete', 1)
+        $data['productU'] = $this->home->where('type', '')->where('delete', 1)
             ->orderBy('id', 'DESC')->paginate($page)->get();
         $data['page'] = 'pages/users/home';
         $this->view($data);

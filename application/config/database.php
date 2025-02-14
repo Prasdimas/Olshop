@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '127.0.0.1',
-	'username' => 'root',
-	'password' => 'one102938',
+	'hostname' => '127.0.0.1:3308',
+	'username' => 'dimas',
+	'password' => '(ku123ro)', 
 	'database' => 'ciolshop',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
