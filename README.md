@@ -1,10 +1,2 @@
-# OnlineShop-CI3
-Aplikasi Web Online Shop dibuat dengan Codeigniter 3
-
-Demo: [http://cionline-shop.epizy.com/](http://cionline-shop.epizy.com/)
-
-Demo Admin: [http://cionline-shop.epizy.com/admin](http://cionline-shop.epizy.com/admin)
-
-Username: admin
-Password: admin
 # Olshop
+Online Shop ini dibangun dengan CodeIgniter dan MySQL, memanfaatkan API Raja Ongkir untuk cek ongkos kirim real-time. Sistem ini menawarkan kemudahan berbelanja online dengan pengelolaan data produk, pelanggan, dan transaksi yang efisien.
